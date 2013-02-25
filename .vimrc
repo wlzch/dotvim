@@ -34,6 +34,7 @@ augroup END
 
 autocmd vimenter * NERDTree
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
+au FileType javascript setl sw=2 ts=2 et
 nnoremap ,m :w <BAR> !lessc % > %:t:r.css<CR><space>
 
 "augroup ruby_autocmd
