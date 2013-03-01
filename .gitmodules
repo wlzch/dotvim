@@ -19,18 +19,12 @@
 [submodule "bundle/scss"]
 	path = bundle/scss
 	url = https://github.com/cakebaker/scss-syntax.vim.git
-[submodule "bundle/instant-markdown"]
-	path = bundle/instant-markdown
-	url = https://github.com/suan/vim-instant-markdown.git
 [submodule "bundle/javascript"]
 	path = bundle/javascript
 	url = https://github.com/pangloss/vim-javascript.git
 [submodule "bundle/json"]
 	path = bundle/json
 	url = https://github.com/vim-scripts/vim-json-bundle.git
-[submodule "bundle/markdown"]
-	path = bundle/markdown
-	url = https://github.com/plasticboy/vim-markdown.git
 [submodule "bundle/matchit"]
 	path = bundle/matchit
 	url = https://github.com/edsono/vim-matchit.git
@@ -52,3 +46,6 @@
 [submodule "bundle/jade"]
 	path = bundle/jade
 	url = https://github.com/digitaltoad/vim-jade.git
+[submodule "bundle/octopress"]
+	path = bundle/octopress
+	url = https://github.com/tangledhelix/vim-octopress.git
