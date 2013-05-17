@@ -1,6 +1,3 @@
-[submodule "bundle/closetag"]
-	path = bundle/closetag
-	url = https://github.com/docunext/closetag.vim
 [submodule "bundle/css3"]
 	path = bundle/css3
 	url = https://github.com/hail2u/vim-css3-syntax.git
@@ -37,9 +34,6 @@
 [submodule "bundle/twig"]
 	path = bundle/twig
 	url = https://github.com/beyondwords/vim-twig.git
-[submodule "bundle/xdebug"]
-	path = bundle/xdebug
-	url = https://github.com/ludovicPelle/vim-xdebug.git
 [submodule "bundle/less"]
 	path = bundle/less
 	url = https://github.com/groenewege/vim-less.git
