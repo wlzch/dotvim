@@ -43,3 +43,9 @@
 [submodule "bundle/octopress"]
 	path = bundle/octopress
 	url = https://github.com/tangledhelix/vim-octopress.git
+[submodule "bundle/vim-autoclose"]
+	path = bundle/vim-autoclose
+	url = https://github.com/Townk/vim-autoclose.git
+[submodule "bundle/HTML-AutoCloseTag"]
+	path = bundle/HTML-AutoCloseTag
+	url = https://github.com/vim-scripts/HTML-AutoCloseTag.git
