@@ -33,6 +33,7 @@ augroup json_autocmd
 augroup END 
 
 autocmd vimenter * NERDTree
+autocmd vimenter * wincmd p
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 au FileType javascript setl sw=2 ts=2 et
 nnoremap ,m :w <BAR> !lessc % > %:t:r.css<CR><space>
@@ -44,7 +45,3 @@ cmap w!! %!sudo tee > /dev/null %
 "    autocmd!
 "    autocmd FileType ruby,eruby,yaml set softtabstop=2 tabstop=8 shiftwidth=2 et
 "augroup END
-
-let g:html_indent_inctags = "html,body,head,tbody"
-let g:html_indent_script1 = "inc"
-let g:html_indent_style1 = "inc"
