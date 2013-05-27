@@ -37,6 +37,9 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTree
 au FileType javascript setl sw=2 ts=2 et
 nnoremap ,m :w <BAR> !lessc % > %:t:r.css<CR><space>
 
+"write as sudo
+cmap w!! %!sudo tee > /dev/null %
+
 "augroup ruby_autocmd
 "    autocmd!
 "    autocmd FileType ruby,eruby,yaml set softtabstop=2 tabstop=8 shiftwidth=2 et
