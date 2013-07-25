@@ -36,12 +36,13 @@ autocmd vimenter * NERDTree
 autocmd vimenter * wincmd p
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 au FileType javascript setl sw=2 ts=2 et
+au FileType html setlocal shiftwidth=2 tabstop=2
+au FileType twig setlocal shiftwidth=2 tabstop=2
+au FileType jinja setlocal shiftwidth=2 tabstop=2
+au FileType less setlocal shiftwidth=2 tabstop=2
 nnoremap ,m :w <BAR> !lessc % > %:t:r.css<CR><space>
 
 "write as sudo
 cmap w!! %!sudo tee > /dev/null %
 
-"augroup ruby_autocmd
-"    autocmd!
-"    autocmd FileType ruby,eruby,yaml set softtabstop=2 tabstop=8 shiftwidth=2 et
-"augroup END
+let g:instant_markdown_slow = 1
