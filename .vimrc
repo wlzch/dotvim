@@ -12,6 +12,7 @@ set number
 set backup
 set backupdir=~/.vim/backup
 set directory=~/.vim/tmp
+set foldmethod=syntax
 set autoindent
 set copyindent
 set smarttab
