@@ -64,3 +64,9 @@
 [submodule "bundle/vimshell.vim"]
 	path = bundle/vimshell.vim
 	url = https://github.com/Shougo/vimshell.vim.git
+[submodule "bundle/syntastic"]
+	path = bundle/syntastic
+	url = https://github.com/scrooloose/syntastic.git
+[submodule "bundle/grep"]
+	path = bundle/grep
+	url = https://github.com/yegappan/grep
